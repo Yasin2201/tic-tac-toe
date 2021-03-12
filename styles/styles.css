@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+    "tl tm tr"
+    "ml mm mr"
+    "bl bm br";
+}
+
+#tl {
+    grid-area: tl;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#tm {
+    grid-area: tm;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#tr {
+    grid-area: tr;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#ml {
+    grid-area: ml;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#mm {
+    grid-area: mm;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#mr {
+    grid-area: mr;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#bl {
+    grid-area: bl;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#bm {
+    grid-area: bm;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#br {
+    grid-area: br;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
