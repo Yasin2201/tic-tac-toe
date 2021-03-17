@@ -1,10 +1,16 @@
 html {
-    height: 100%;
     background-color: azure;
 }
 
+body {
+    margin: 0;
+}
+
 h1 {
+    font-size: 70px;
+    margin: 0;
     text-align: center;
+    z-index: 0;
 }
 
 .container {
@@ -19,65 +25,77 @@ h1 {
     "bl bm br";
 }
 
-#tl {
+.squareDiv {
+    background-color: #e6f2ff;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.squareDiv:hover {
+  background-color: #cce5ff;
+}
+
+[id='0'] {
     grid-area: tl;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
 }
 
-#tm {
+[id='1'] {
     grid-area: tm;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
 }
 
-#tr {
+[id='2'] {
     grid-area: tr;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
 }
 
-#ml {
+[id='3'] {
     grid-area: ml;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
 }
 
-#mm {
+[id='4'] {
     grid-area: mm;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
 }
 
-#mr {
+[id='5'] {
     grid-area: mr;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
 }
 
-#bl {
+[id='6'] {
     grid-area: bl;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
 }
 
-#bm {
+[id='7'] {
     grid-area: bm;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
 }
 
-#br {
+[id='8'] {
     grid-area: br;
-    border: solid 1px black;
-    padding: 20px;
-    font-size: 50px;
+}
+
+.modal {
+  display: none;
+  position : absolute;
+  width : 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+.modal-content {
+  position: relative;
+  text-align: center;
+}
+
+.announceWinner {
+  color: whitesmoke;
+  font-size: 80px;
+  text-shadow: 5px 10px 8px #888888;
+}
+
+.replayBtn {
+  width: 180px;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+
 }
